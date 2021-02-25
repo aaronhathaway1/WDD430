@@ -10,9 +10,9 @@ import { Message } from '../message.model'
 
 export class MessageListComponent implements OnInit {
   messages: Message[] = [
-    new Message("1", "Lunch Meeting", "Dummy Text", 'Aaron Hathaway'),
-    new Message("2", "Late Assignment", "Dummy Text", 'Aaron Hathaway'),
-    new Message("3", "Religion Project", "Dummy Text", 'Aaron Hathaway')
+    new Message("1", "Lunch Meeting", "Lunch meeting was cancelled", 'Aaron Hathaway'),
+    new Message("2", "Late Assignment", "You suck at Mario Kart", 'Bobby Cunningham'),
+    new Message("3", "Religion Project", "Y'all are lame", 'Geoff Rogers')
   ]
 
 
